@@ -36,17 +36,25 @@ To fork and set up this repository, follow these steps:
    ```bash
    git clone https://github.com/YOUR_USERNAME/email-otp.git
 
-3.  **Navigate to the project directory**
-    cd email-otp
+3. **Navigate to the project directory**
+
+   ```bash
+   cd email-otp
 
 4. **cd email-otp**: Run the following command to install the necessary packages:
-    npm install
+
+   ```bash
+   npm install
 
 5. **Set up environment variables**: Create a .env file in the root directory of the project and add your email service configuration. For example:
-    EMAIL_USERNAME=your_email@example.com
-    EMAIL_PASSWORD=your_email_password
+
+   ```bash
+   EMAIL_USERNAME=your_email@example.com
+   EMAIL_PASSWORD=your_email_password
 
 6. **Start the server**: Start the server:
-    npm start
+
+   ```bash
+   npm start
 
 You can now access the application at http://localhost:3000 (or the port specified in your configuration).
